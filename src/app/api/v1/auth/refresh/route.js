@@ -18,7 +18,7 @@ export async function POST(req) {
 
         // Generate a new access token
         const accessToken = jwt.sign({ userId: user[0].id, role: user[0].role },
-            process.env.JWT_SECRET, { expiresIn: '15m' } // New access token expires in 15 minutes
+            process.env.JWT_SECRET, { expiresIn: '1h' }
         );
 
         logger.info(`Refresh API - New access token generated for user: ${user[0].email}`);
