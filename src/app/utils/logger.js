@@ -1,24 +1,30 @@
-// utils/logger.js
-const winston = require('winston');
-const { format, transports } = winston;
-const path = require('path');
+import winston from "winston";
+import path from "path";
+import fs from "fs";
 
-// Create a log file with the current date
-const logFileName = () => {
-    const date = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
-    return path.join(__dirname, `../logs/${date}.log`);
-};
+// Ensure logs directory exists
+const logDir = path.join(process.cwd(), "logs");
+if (!fs.existsSync(logDir)) {
+    fs.mkdirSync(logDir);
+}
+
+const logFormat = winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.json()
+);
 
 const logger = winston.createLogger({
-    level: 'info',
-    format: format.combine(
-        format.timestamp(),
-        format.json()
-    ),
+    level: "info",
+    format: logFormat,
     transports: [
-        new transports.Console(),
-        new transports.File({ filename: logFileName() }),
+        new winston.transports.File({
+            filename: path.join(logDir, `system-${new Date().toISOString().split("T")[0]}.log`),
+            level: "info",
+        }),
+        new winston.transports.Console({
+            format: winston.format.simple(),
+        }),
     ],
 });
 
-module.exports = logger;
+export default logger;

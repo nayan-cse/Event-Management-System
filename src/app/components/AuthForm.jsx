@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -5,10 +6,9 @@ const AuthForm = ({
   title,
   fields,
   buttonText,
-  linkText,
-  linkHref,
   apiEndpoint,
   successRedirect,
+  additionalData, // Accept additional data
 }) => {
   const [formData, setFormData] = useState({});
   const [error, setError] = useState("");
@@ -22,10 +22,11 @@ const AuthForm = ({
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
+      const payload = { ...formData, ...additionalData }; // Merge form data and additional data
       const response = await fetch(apiEndpoint, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(payload),
       });
       const data = await response.json();
       if (response.ok) {
@@ -70,13 +71,6 @@ const AuthForm = ({
             {buttonText}
           </button>
         </form>
-        {linkText && (
-          <div className="mt-4 text-center">
-            <a href={linkHref} className="text-blue-500 hover:underline">
-              {linkText}
-            </a>
-          </div>
-        )}
       </div>
     </div>
   );

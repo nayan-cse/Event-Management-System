@@ -6,6 +6,14 @@ import logger from '../../../../utils/logger';
 export async function POST(req) {
     const { token, newPassword } = await req.json();
 
+    // Log the token for debugging
+    logger.info(`Reset Password API - Token received: ${token}`);
+
+    if (!token) {
+        logger.warn('Reset Password API - Token is missing');
+        return new Response(JSON.stringify({ message: 'Token is required' }), { status: 400 });
+    }
+
     try {
         // Verify the reset token
         const decoded = jwt.verify(token, process.env.JWT_SECRET);

@@ -1,0 +1,5 @@
+{"level":"error","message":"Reset Password API - Error: jwt must be provided","timestamp":"2025-03-22T12:36:50.072Z"}
+{"level":"info","message":"Reset Password API - Token received: undefined","timestamp":"2025-03-22T12:40:56.924Z"}
+{"level":"warn","message":"Reset Password API - Token is missing","timestamp":"2025-03-22T12:40:56.937Z"}
+{"level":"info","message":"Reset Password API - Token received: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc0MjY0NjU1NywiZXhwIjoxNzQyNjUwMTU3fQ.dIQ1slbPHlSV91zfrGxAANutQZXpF5ZB-wWV8SX6ucc","timestamp":"2025-03-22T12:44:15.263Z"}
+{"level":"info","message":"Reset Password API - Password reset for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T12:44:16.549Z"}
