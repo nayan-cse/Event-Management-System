@@ -6,7 +6,7 @@ export async function POST(req) {
     const { refreshToken } = await req.json();
 
     try {
-        // Verify refresh token
+        // Verify the refresh token
         const decoded = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET);
 
         // Check if the refresh token exists in the database
@@ -18,7 +18,7 @@ export async function POST(req) {
 
         // Generate a new access token
         const accessToken = jwt.sign({ userId: user[0].id, role: user[0].role },
-            process.env.JWT_SECRET, { expiresIn: '15m' }
+            process.env.JWT_SECRET, { expiresIn: '15m' } // New access token expires in 15 minutes
         );
 
         logger.info(`Refresh API - New access token generated for user: ${user[0].email}`);

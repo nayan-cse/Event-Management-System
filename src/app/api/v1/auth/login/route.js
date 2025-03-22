@@ -23,7 +23,7 @@ export async function POST(req) {
 
         // Generate access token
         const accessToken = jwt.sign({ userId: user[0].id, role: user[0].role },
-            process.env.JWT_SECRET, { expiresIn: '15m' } // Short-lived access token
+            process.env.JWT_SECRET, { expiresIn: '1h' } // Short-lived access token
         );
 
         // Generate refresh token

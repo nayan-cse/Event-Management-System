@@ -3,3 +3,38 @@
 {"level":"warn","message":"Reset Password API - Token is missing","timestamp":"2025-03-22T12:40:56.937Z"}
 {"level":"info","message":"Reset Password API - Token received: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc0MjY0NjU1NywiZXhwIjoxNzQyNjUwMTU3fQ.dIQ1slbPHlSV91zfrGxAANutQZXpF5ZB-wWV8SX6ucc","timestamp":"2025-03-22T12:44:15.263Z"}
 {"level":"info","message":"Reset Password API - Password reset for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T12:44:16.549Z"}
+{"level":"warn","message":"Login API - Invalid password for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:24:56.325Z"}
+{"level":"warn","message":"Login API - Invalid password for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:25:03.461Z"}
+{"level":"info","message":"Forgot Password API - Reset token sent to: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:25:37.221Z"}
+{"level":"info","message":"Reset Password API - Token received: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsImlhdCI6MTc0MjY0OTkzMiwiZXhwIjoxNzQyNjUzNTMyfQ.a4ub_PwhhaGIt0IFdr-DQib8FV4j3jF3gHyyInYh4JQ","timestamp":"2025-03-22T13:26:27.479Z"}
+{"level":"info","message":"Reset Password API - Password reset for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:26:28.636Z"}
+{"level":"info","message":"Login API - User logged in successfully: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:27:13.171Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:27:17.925Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:27:19.999Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:29:45.255Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:30:29.484Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:30:33.641Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:31:51.726Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:39:11.801Z"}
+{"level":"info","message":"Login API - User logged in successfully: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:40:34.216Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:40:36.870Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:40:37.750Z"}
+{"level":"error","message":"Dashboard API - Error: jwt expired","timestamp":"2025-03-22T13:42:43.701Z"}
+{"level":"error","message":"Dashboard API - Error: jwt expired","timestamp":"2025-03-22T13:42:57.261Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:50:33.905Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:50:37.545Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:50:39.373Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:50:39.843Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:51:49.368Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:51:49.463Z"}
+{"level":"info","message":"Login API - User logged in successfully: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:52:56.946Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:52:57.397Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:52:57.408Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:52:57.471Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:52:57.499Z"}
+{"level":"error","message":"Refresh API - Error: jwt expired","timestamp":"2025-03-22T13:55:37.299Z"}
+{"level":"info","message":"Login API - User logged in successfully: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:56:20.407Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:56:21.310Z"}
+{"level":"info","message":"Refresh API - New access token generated for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:56:21.427Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:56:23.456Z"}
+{"level":"info","message":"Dashboard API - Dashboard data fetched for user: nayanmalakar.cse.just@gmail.com","timestamp":"2025-03-22T13:56:24.888Z"}
